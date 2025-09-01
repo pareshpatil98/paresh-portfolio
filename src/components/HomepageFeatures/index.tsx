@@ -25,15 +25,17 @@ export default function HomepageFeatures() {
           <div className={styles.heroContent}>
             <div className={styles.textContainer}>
               <h1 className={styles.welcomeText}>
-                Welcome to <span className={styles.shekharText}>Shekhar's</span> Channel
+                Welcome to <span className={styles.shekharText}>Paresh's</span> Channel
               </h1>
               <p className={styles.descriptionText}>
-                Senior Software Engineer based in Pune with 7+ years of experience in Golang, Docker, Kubernetes, and Ruby.
-                Contributor to open-source projects like Rails, Rubocop & swagger-ui-engine. I share technical tutorials, blogs, and dev tools.
+                Ruby on Rails Developer with 2+ years of experience building scalable web applications. 
+                Skilled in Rails, PostgreSQL, Vue.js, Git, and AWS (S3). 
+                Passionate about writing clean code, optimizing performance, and exploring design patterns. 
+                I also share learnings, interview prep tips, and dev insights.
               </p>
               <div className={styles.linkRow}>
-                <a href="https://github.com/shekhar-patil" target="_blank" rel="noreferrer" className={styles.socialButton}>GitHub</a>
-                <a href="https://www.linkedin.com/in/shekhar-patil-834462135/" target="_blank" rel="noreferrer" className={styles.socialButton}>LinkedIn</a>
+                <a href="https://github.com/pareshpatil98" target="_blank" rel="noreferrer" className={styles.socialButton}>GitHub</a>
+                <a href="https://www.linkedin.com/in/paresh-patil-96592a183/" target="_blank" rel="noreferrer" className={styles.socialButton}>LinkedIn</a>
                 <a href="/blog" className={styles.socialButton}>My Blog</a>
               </div>
             </div>

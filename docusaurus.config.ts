@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Shekhar Patil - Full Stack Developer',
-  tagline: 'Full Stack Developer specializing in Ruby, Rails, Golang, and Cloud Technologies. Sharing knowledge through tutorials, blogs, and open source contributions.',
+  title: 'Paresh Patil - Full Stack Developer',
+  tagline: 'Ruby on Rails Developer with 2+ years of experience. Skilled in Rails, PostgreSQL, Vue.js, Git, and AWS. Passionate about clean code, performance optimization, and sharing dev insights.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -77,35 +77,35 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: 'Shekhar Patil - Full Stack Developer specializing in Ruby, Rails, Golang, and Cloud Technologies. Sharing knowledge through tutorials, blogs, and open source contributions.',
+        content: 'Paresh Patil - Ruby on Rails Developer with 2+ years of experience. Skilled in Rails, PostgreSQL, Vue.js, Git, and AWS. Passionate about clean code, performance optimization, and sharing dev insights.',
       },
     },
     {
       tagName: 'meta',
       attributes: {
         name: 'keywords',
-        content: 'Full Stack Developer, Ruby on Rails, Golang, Docker, Kubernetes, GCP, Open Source, Tech Blog, Programming Tutorials',
+        content: 'Ruby on Rails Developer, Vue.js, PostgreSQL, AWS, Git, Open Source, Tech Blog, Programming Tutorials',
       },
     },
     {
       tagName: 'meta',
       attributes: {
         name: 'author',
-        content: 'Shekhar Patil',
+        content: 'Paresh Patil',
       },
     },
     {
       tagName: 'meta',
       attributes: {
         property: 'og:title',
-        content: 'Shekhar Patil - Full Stack Developer & Tech Educator',
+        content: 'Paresh Patil - Full Stack Developer',
       },
     },
     {
       tagName: 'meta',
       attributes: {
         property: 'og:description',
-        content: 'Full Stack Developer specializing in Ruby, Rails, Golang, and Cloud Technologies. Sharing knowledge through tutorials, blogs, and open source contributions.',
+        content: 'Ruby on Rails Developer with 2+ years of experience. Skilled in Rails, PostgreSQL, Vue.js, Git, and AWS. Passionate about clean code, performance optimization, and sharing dev insights.',
       },
     },
     {
@@ -119,7 +119,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         property: 'og:url',
-        content: 'https://shekharpatil.tech',
+        content: 'https://pareshpatil1312.github.io',
       },
     },
     {
@@ -133,14 +133,14 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'twitter:title',
-        content: 'Shekhar Patil - Full Stack Developer & Tech Educator',
+        content: 'Paresh Patil - Full Stack Developer',
       },
     },
     {
       tagName: 'meta',
       attributes: {
         name: 'twitter:description',
-        content: 'Full Stack Developer specializing in Ruby, Rails, Golang, and Cloud Technologies. Sharing knowledge through tutorials, blogs, and open source contributions.',
+        content: 'Ruby on Rails Developer with 2+ years of experience. Skilled in Rails, PostgreSQL, Vue.js, Git, and AWS. Passionate about clean code, performance optimization, and sharing dev insights.',
       },
     },
     {
@@ -158,7 +158,7 @@ const config: Config = {
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Person',
-        name: 'Shekhar Patil',
+        name: 'Paresh Patil',
         url: 'https://shekharpatil.tech',
         image: 'https://shekharpatil.tech/img/profile.png',
         sameAs: [
@@ -182,9 +182,9 @@ const config: Config = {
       {name: 'keywords', content: 'Full Stack Developer, Ruby on Rails, Golang, Docker, Kubernetes, GCP, Open Source, Tech Blog, Programming Tutorials'},
     ],
     navbar: {
-      title: 'Shekhar Patil',
+      title: 'Paresh Patil',
       logo: {
-        alt: 'Shekhar Patil Logo',
+        alt: 'Paresh Patil Logo',
         src: 'img/profile.png',
       },
       items: [
@@ -279,7 +279,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Shekhar Patil`,
+      copyright: `Copyright © ${new Date().getFullYear()} Paresh Patil`,
     },
 
     prism: {
