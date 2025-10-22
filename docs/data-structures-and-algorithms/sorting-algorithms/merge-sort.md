@@ -67,7 +67,7 @@ func main() {
     arr := []int{10, 2, 5, 3, 1, 7, 0}
     fmt.Println(MergeSort(arr))
 }
-````
+```
 
 ---
 
@@ -79,31 +79,31 @@ func main() {
 | Average Case | O(n log n)      |
 | Worst Case   | O(n log n)      |
 
-* **Space Complexity:** O(n) (because extra space is needed for merging).
+- **Space Complexity:** O(n) (because extra space is needed for merging).
 
 ---
 
 ## ✅ Advantages
 
-* Consistent O(n log n) performance for all cases.
-* Stable sort (maintains the relative order of equal elements).
-* Well-suited for sorting linked lists and external sorting (huge data sets).
+- Consistent O(n log n) performance for all cases.
+- Stable sort (maintains the relative order of equal elements).
+- Well-suited for sorting linked lists and external sorting (huge data sets).
 
 ---
 
 ## ❌ Disadvantages
 
-* Requires additional memory (O(n) extra space).
-* Not in-place (unlike quick sort or heap sort).
+- Requires additional memory (O(n) extra space).
+- Not in-place (unlike quick sort or heap sort).
 
 ---
 
 ## 🌍 Real-Life Examples
 
-* **Large dataset sorting** (e.g. files, databases, external storage).
-* **Linked lists sorting** (merge sort works very efficiently on linked lists).
-* **Parallel sorting** (merge sort divides naturally into independent tasks).
+- **Large dataset sorting** (e.g. files, databases, external storage).
+- **Linked lists sorting** (merge sort works very efficiently on linked lists).
+- **Parallel sorting** (merge sort divides naturally into independent tasks).
 
 ---
 
-Feel free to follow my work on GitHub: [Merge Sort in Go](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/sorting_algorithms/merge_sort.go)
+Feel free to follow my work on GitHub: [Merge Sort in Go](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/sorting_algorithms/merge_sort.go)

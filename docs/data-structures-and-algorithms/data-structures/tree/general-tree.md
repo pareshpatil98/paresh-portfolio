@@ -1,5 +1,4 @@
 ---
-
 sidebar_position: 1
 ---
 
@@ -53,11 +52,11 @@ class TreeNode:
 
 
 if __name__ == "__main__":
-  root = TreeNode("Shekhar Patil", "CEO")
+  root = TreeNode("paresh Patil", "CEO")
 
   root.build_tree()
 
   root.print_tree()
 ```
 
-Feel free to follow my work on GitHub: [Singly linked list in Python](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/data_structures/trees/general_trees/python/general_tree.py).
+Feel free to follow my work on GitHub: [Singly linked list in Python](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/data_structures/trees/general_trees/python/general_tree.py).

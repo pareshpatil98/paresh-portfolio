@@ -8,7 +8,7 @@ In this post, we will explore **Prim’s Algorithm**, a greedy approach used to 
 
 ---
 
-##  When Can We Use Prim’s Algorithm?
+## When Can We Use Prim’s Algorithm?
 
 Prim’s Algorithm can be applied **only when** the graph satisfies the following conditions:
 
@@ -20,7 +20,7 @@ Prim’s Algorithm can be applied **only when** the graph satisfies the followin
 
 ---
 
-##  What Does It Do?
+## What Does It Do?
 
 Prim’s Algorithm helps us find the **Minimum Spanning Tree (MST)** — a subset of the edges that:
 
@@ -30,7 +30,7 @@ Prim’s Algorithm helps us find the **Minimum Spanning Tree (MST)** — a subse
 
 ---
 
-##  Where Is It Used in Real Life?
+## Where Is It Used in Real Life?
 
 Prim’s Algorithm is widely used in various domains:
 
@@ -53,17 +53,18 @@ Here’s a visual explanation of Prim’s Algorithm:
 We start with Node 0 and build the Minimum Spanning Tree (MST) by always picking the lowest-weight edge that connects a visited node to an unvisited one.
 
 Steps:
+
 - Start at Node 0
-Lowest edge: 0 → 4 (6) → Add to MST
+  Lowest edge: 0 → 4 (6) → Add to MST
 
 - From {0, 4}
-Lowest edge: 4 → 3 (2) → Add to MST
+  Lowest edge: 4 → 3 (2) → Add to MST
 
 - From {0, 4, 3}
-Lowest edge: 4 → 2 (3) → Add to MST
+  Lowest edge: 4 → 2 (3) → Add to MST
 
 - From {0, 4, 3, 2}
-Lowest edge: 2 → 1 (8) → Add to MST
+  Lowest edge: 2 → 1 (8) → Add to MST
 
 All nodes are now connected with the minimum total weight.
 
@@ -130,7 +131,7 @@ func printMst(edges [][][]int) [][][]int {
 
     return mst
 }
-````
+```
 
 ---
 
@@ -176,24 +177,24 @@ Minimum Spanning Tree:
 
 ## ⏱️ Time & Space Complexity
 
-* **Time Complexity**: `O(E log E)` due to min-heap operations
-* **Space Complexity**: `O(V + E)` for the heap and adjacency list
+- **Time Complexity**: `O(E log E)` due to min-heap operations
+- **Space Complexity**: `O(V + E)` for the heap and adjacency list
 
 ---
 
 ## 👍 Advantages
 
-* Efficient for **dense graphs**
-* Easy to implement with a min-heap
-* Builds MST without sorting all edges
+- Efficient for **dense graphs**
+- Easy to implement with a min-heap
+- Builds MST without sorting all edges
 
 ---
 
 ## 👎 Disadvantages
 
-* Doesn’t work on **directed graphs**
-* Fails on graphs with **negative weights**
-* Requires the graph to be **connected**
+- Doesn’t work on **directed graphs**
+- Fails on graphs with **negative weights**
+- Requires the graph to be **connected**
 
 ---
 
@@ -205,4 +206,4 @@ Prim’s Algorithm is a powerful tool for finding MSTs in undirected graphs. It�
 
 ---
 
-Feel free to follow my work on GitHub: [Prim's Algorithm in Go](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/graph_algorithms/prims_algorithm.go).
+Feel free to follow my work on GitHub: [Prim's Algorithm in Go](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/graph_algorithms/prims_algorithm.go).

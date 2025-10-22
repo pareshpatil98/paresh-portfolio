@@ -1,7 +1,7 @@
 ---
 slug: terminate-goroutines
 title: How to Terminate Goroutines in Go
-authors: shekhar-patil
+authors: paresh-patil
 tags: [golang, Design Pattern, Concurrency]
 ---
 
@@ -10,7 +10,9 @@ This week, I explored goroutines in more depth, particularly focusing on how to 
 ### How to Terminate Goroutines in Go?
 
 In Go, goroutines cannot be forcefully killed. Instead, they should be terminated **gracefully and in a controlled manner**.
+
 <!--truncate-->
+
 You can achieve this using mechanisms such as **channels**, **context**, or a **shared flag**. Among these, using `context` is the most recommended and idiomatic way.
 
 ---
@@ -57,7 +59,7 @@ func main() {
 
     fmt.Println("All workers done")
 }
-````
+```
 
 ---
 
@@ -186,9 +188,8 @@ func main() {
 
 Graceful termination of goroutines is a fundamental part of writing robust concurrent code in Go. Use:
 
-* `context` for structured and scalable cancellation
-* `channels` for simple signaling
-* shared flags with caution and proper synchronization
+- `context` for structured and scalable cancellation
+- `channels` for simple signaling
+- shared flags with caution and proper synchronization
 
 Each method has its own use case, but **context-based cancellation is the most idiomatic and scalable** approach in modern Go applications.
-

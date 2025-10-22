@@ -6,7 +6,6 @@ sidebar_position: 6
 
 Sorting algorithms are one of the most fundamental topics in computer science, and **Quick Sort** stands out as one of the most efficient and widely used sorting algorithms in practice. In this blog, we'll explore how Quick Sort works, walk through an example step-by-step, and then see a complete Go implementation.
 
-
 ## 🔎 How Quick Sort Works
 
 Quick Sort is a **divide and conquer** algorithm that follows these main steps:
@@ -17,8 +16,8 @@ Select one element from the array as the pivot.
 2️⃣ **Partition the array**
 Rearrange the array so that:
 
-* Elements smaller than the pivot are on the left.
-* Elements larger than the pivot are on the right.
+- Elements smaller than the pivot are on the left.
+- Elements larger than the pivot are on the right.
 
 3️⃣ **Recursively apply Quick Sort**
 Apply the same process to the left and right subarrays.
@@ -48,17 +47,17 @@ We pick the **first element** as pivot:
 
 We rearrange the elements so that:
 
-* All elements `<= 1` go to the left
-* All elements `>= 1` go to the right
+- All elements `<= 1` go to the left
+- All elements `>= 1` go to the right
 
 While partitioning:
 
-* Compare 5 with 1 → 5 is greater → stay right
-* Compare 2 with 1 → 2 is greater → stay right
-* Compare 10 with 1 → greater
-* Compare 30 with 1 → greater
-* Compare -1 with 1 → swap -1 with 5 → now array: `[1, -1, 2, 10, 30, 5, 4]`
-* Compare 4 with 1 → greater
+- Compare 5 with 1 → 5 is greater → stay right
+- Compare 2 with 1 → 2 is greater → stay right
+- Compare 10 with 1 → greater
+- Compare 30 with 1 → greater
+- Compare -1 with 1 → swap -1 with 5 → now array: `[1, -1, 2, 10, 30, 5, 4]`
+- Compare 4 with 1 → greater
 
 Finally, swap pivot with last smaller element (-1).
 The array becomes:
@@ -73,8 +72,8 @@ Now pivot `1` is at its correct sorted position (index 1).
 
 ### Step 3: Recursively Sort Left and Right Subarrays
 
-* Left subarray: `[-1]` (already sorted)
-* Right subarray: `[2, 10, 30, 5, 4]`
+- Left subarray: `[-1]` (already sorted)
+- Right subarray: `[2, 10, 30, 5, 4]`
 
 ---
 
@@ -83,8 +82,8 @@ Now pivot `1` is at its correct sorted position (index 1).
 Take pivot: `2`
 Partition → already sorted → no swaps needed.
 
-* Left: empty
-* Right: `[10, 30, 5, 4]`
+- Left: empty
+- Right: `[10, 30, 5, 4]`
 
 ---
 
@@ -93,9 +92,9 @@ Partition → already sorted → no swaps needed.
 Take pivot: `10`
 Partition:
 
-* Compare 30 → greater
-* Compare 5 → swap with 30 → `[5, 30, 4]`
-* Compare 4 → swap with 30 → `[5, 4, 30]`
+- Compare 30 → greater
+- Compare 5 → swap with 30 → `[5, 30, 4]`
+- Compare 4 → swap with 30 → `[5, 4, 30]`
 
 Swap pivot `10` into correct position:
 Result: `[4, 5, 10, 30]`
@@ -185,9 +184,9 @@ func main() {
 
 ✅ In practice, Quick Sort performs very well due to:
 
-* Low memory overhead (in-place)
-* Cache efficiency
-* Fast average case behavior
+- Low memory overhead (in-place)
+- Cache efficiency
+- Fast average case behavior
 
 ---
 
@@ -201,4 +200,4 @@ Make sure you not only memorize the algorithm but deeply understand **how partit
 
 ## 💻 Complete Code Repository
 
-👉 [Quick Sort in Go (GitHub)](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/sorting_algorithms/quick_sort.go)
+👉 [Quick Sort in Go (GitHub)](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/sorting_algorithms/quick_sort.go)

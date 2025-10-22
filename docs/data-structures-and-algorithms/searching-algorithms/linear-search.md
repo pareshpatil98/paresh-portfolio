@@ -22,7 +22,7 @@ Let's say we have the following array:
 
 [5, 2, 9, 4, 7]
 
-````
+```
 
 We want to search for the element `4`.
 
@@ -64,7 +64,7 @@ func main() {
         fmt.Println("Element not found")
     }
 }
-````
+```
 
 ---
 
@@ -84,16 +84,16 @@ Element found at index 3
 | Average    | O(n)            |
 | Worst Case | O(n)            |
 
-* **Space Complexity**: O(1)
+- **Space Complexity**: O(1)
 
 ---
 
 ## ✅ When to Use Linear Search
 
-* When the dataset is **unsorted**
-* When the list is **small**
-* When performance isn’t a primary concern
-* When you want a **quick and simple** solution
+- When the dataset is **unsorted**
+- When the list is **small**
+- When performance isn’t a primary concern
+- When you want a **quick and simple** solution
 
 ---
 
@@ -104,9 +104,8 @@ Linear search is a basic yet powerful algorithm, ideal for simple scenarios or w
 ---
 
 You can view and clone the full code from my GitHub repo here:
-👉 [Linear Search in Go](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/searching_algorithms/linear_search.go)
+👉 [Linear Search in Go](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/searching_algorithms/linear_search.go)
 
 ---
 
 Happy Learning! 🚀
-

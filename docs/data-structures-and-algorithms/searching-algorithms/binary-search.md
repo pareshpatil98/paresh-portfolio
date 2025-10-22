@@ -33,7 +33,7 @@ Say we have this array:
 
 [0, 1, 2, 3, 4]
 
-````
+```
 
 And we want to find `3`.
 
@@ -89,7 +89,7 @@ func main() {
     fmt.Printf("Element %d not found in the array\n", target)
   }
 }
-````
+```
 
 ---
 
@@ -109,7 +109,7 @@ Element 3 found at index 3
 | Average    | O(log n) |
 | Worst Case | O(log n) |
 
-* **Space complexity** is **O(1)** (if iterative like above), or **O(log n)** for recursive version due to the call stack.
+- **Space complexity** is **O(1)** (if iterative like above), or **O(log n)** for recursive version due to the call stack.
 
 ---
 
@@ -122,14 +122,13 @@ If it’s not sorted, it won’t work correctly — you might eliminate the part
 
 ## 🧠 When Should You Use It?
 
-* ✅ When the data is **already sorted**
-* ✅ When you need to search **frequently**
-* ✅ When performance matters — because **log n** is fast!
+- ✅ When the data is **already sorted**
+- ✅ When you need to search **frequently**
+- ✅ When performance matters — because **log n** is fast!
 
 ---
 
 ## 🔗 GitHub Repo
 
 You can check out the full code here:
-👉 [Binary Search in Go](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/searching_algorithms/binary_search.go)
-
+👉 [Binary Search in Go](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/searching_algorithms/binary_search.go)

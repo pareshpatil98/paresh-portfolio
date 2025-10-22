@@ -1,7 +1,7 @@
 ---
 slug: google-interview
 title: Failing Google’s Final Round — What I Learned
-authors: shekhar-patil
+authors: paresh-patil
 tags: [interview, google]
 image: "./google.webp"
 ---
@@ -9,7 +9,9 @@ image: "./google.webp"
 ![Google Interview](./google.webp)
 
 Like many of us, I used to only share the good stuff — job offers, achievements, career milestones. But over time, I realized failures are just as important. They teach us, humble us, and help others feel less alone in their journey.
+
 <!--truncate-->
+
 This post is about my experience interviewing at Google. I made it to the final round but didn’t get the offer. It hurt, but I also learned a lot. I’m sharing my journey in hopes that it helps you prepare better.
 
 ---
@@ -54,7 +56,7 @@ This round went well—I solved everything. Three days later, the recruiter call
 
 > "You cleared the elimination round. Feedback is positive."
 
-**Probable rating:** *Hire / Strong Hire*
+**Probable rating:** _Hire / Strong Hire_
 
 ---
 
@@ -64,7 +66,7 @@ I was given a real-world scenario and asked to design core functionality using a
 
 The interviewer asked if I could optimize it, but under pressure, I couldn’t. After the interview, I realized a **Binary Search Tree (or Red-Black Tree)** could reduce it to **O(N log N)**.
 
-**Probable rating:** *Leaning Hire*
+**Probable rating:** _Leaning Hire_
 
 ---
 
@@ -74,7 +76,7 @@ This round focused on implementing a solution using HashMaps. I misunderstood th
 
 The interviewer spotted a **bug**, though the majority of my solution was correct.
 
-**Probable rating:** *Leaning Hire / Hire*
+**Probable rating:** _Leaning Hire / Hire_
 
 ---
 
@@ -84,7 +86,7 @@ This round was tricky. I took some time to understand the problem and realized i
 
 I made mistakes in the beginning, and it took me about **35 minutes** to get the solution right. Then I did a quick dry run in the another 5 minutes. The interviewer confirmed my final solution was correct. He had a follow-up question, but we ran out of time.
 
-**Probable rating:** *Leaning Hire*
+**Probable rating:** _Leaning Hire_
 
 ---
 
@@ -148,4 +150,3 @@ If you're preparing for Google or any FAANG interview, check out my:
 ## 🙌 Final Thoughts
 
 Not getting into Google stung—but the journey changed me. I learned more in three months than I had in the past year. If you’re going through something similar, just know this: you’re not alone, and every setback is a setup for growth.
-

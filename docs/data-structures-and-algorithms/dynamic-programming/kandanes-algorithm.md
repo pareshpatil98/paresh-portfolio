@@ -20,7 +20,7 @@ We're kicking off **Dynamic Programming** with one of the most popular algorithm
 Input:  [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 Output: 6
 Explanation: The subarray [4, -1, 2, 1] has the largest sum = 6
-````
+```
 
 ---
 
@@ -28,9 +28,9 @@ Explanation: The subarray [4, -1, 2, 1] has the largest sum = 6
 
 Kadane’s Algorithm solves this problem in **O(n)** time with a simple yet powerful idea:
 
-* Keep track of the **current subarray sum** as we iterate.
-* Also maintain the **maximum sum** found so far.
-* If the current sum becomes negative, reset it to 0 (since a negative sum won’t help in finding the maximum).
+- Keep track of the **current subarray sum** as we iterate.
+- Also maintain the **maximum sum** found so far.
+- If the current sum becomes negative, reset it to 0 (since a negative sum won’t help in finding the maximum).
 
 ---
 
@@ -77,14 +77,14 @@ The core idea of Kadane’s Algorithm in this implementation is:
 
 1. Initialize two variables:
 
-   * `sum` → tracks the **current subarray sum**
-   * `maxSum` → stores the **maximum sum found so far**
+   - `sum` → tracks the **current subarray sum**
+   - `maxSum` → stores the **maximum sum found so far**
 
 2. Iterate over each element:
 
-   * Add the current number to `sum`
-   * If `sum` becomes greater than `maxSum`, update `maxSum`
-   * If `sum` drops below 0, reset `sum` to 0 (since a negative sum will only reduce the total if continued)
+   - Add the current number to `sum`
+   - If `sum` becomes greater than `maxSum`, update `maxSum`
+   - If `sum` drops below 0, reset `sum` to 0 (since a negative sum will only reduce the total if continued)
 
 This helps us dynamically discard subarrays that hurt the total sum and only keep the most promising contiguous elements.
 
@@ -92,21 +92,20 @@ This helps us dynamically discard subarrays that hurt the total sum and only kee
 
 > “Continue adding elements to the current subarray until it becomes harmful (negative). Once it does, drop it and start fresh.”
 
-
 ---
 
 ## 📈 Time & Space Complexity
 
-* **Time Complexity:** `O(n)`
-* **Space Complexity:** `O(1)` (constant space usage)
+- **Time Complexity:** `O(n)`
+- **Space Complexity:** `O(1)` (constant space usage)
 
 ---
 
 ## 🧠 Real-World Applications
 
-* 📈 Stock market profit analysis
-* 🌡️ Anomaly detection in time series data
-* 🎮 Scoring patterns in gaming analytics
+- 📈 Stock market profit analysis
+- 🌡️ Anomaly detection in time series data
+- 🎮 Scoring patterns in gaming analytics
 
 ---
 
@@ -118,15 +117,14 @@ Kadane’s Algorithm beautifully demonstrates how dynamic programming simplifies
 
 ## 🔗 GitHub Repository
 
-👉 [Kadane’s Algorithm – Full Code](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/dynamic_programming/kandanes_algorithm.go)
+👉 [Kadane’s Algorithm – Full Code](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/dynamic_programming/kandanes_algorithm.go)
 
 ---
 
 ## 🔁 Related Topics
 
-* Dynamic Programming
-* Sliding Window Techniques
-* Prefix Sums
+- Dynamic Programming
+- Sliding Window Techniques
+- Prefix Sums
 
 ---
-

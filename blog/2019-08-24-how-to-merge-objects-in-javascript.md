@@ -1,7 +1,7 @@
 ---
 slug: how-to-merge-objects-in-javascript
 title: Extend, Merge methods in the Javascript.
-authors: shekhar-patil
+authors: paresh-patil
 tags: [javascipt]
 ---
 
@@ -14,19 +14,18 @@ Yesterday, I was working on an issue in which database value for particular obje
 ### 1. Merge two objects having distinct attributes names.
 
 declare two objects as the following:
+
 ```javascript
-var student = { 
-  student_name: "Rahul", 
-  age: 22, 
-  standard: "6th" 
+var student = {
+  student_name: "Rahul",
+  age: 22,
+  standard: "6th",
 };
 
-var school = { 
-  school_name: "SBK high school", 
-  location: "Pune" 
+var school = {
+  school_name: "SBK high school",
+  location: "Pune",
 };
-
-
 ```
 
 Now, we will use `extend` method to merge these two objects.
@@ -49,21 +48,19 @@ $.merge(student, school);
 
 We don't have to care where there are distinct attributes in the objects. But when there are some common attribute names then those attributes value gets an override.
 
-
 declare two objects having the same attribute names like the following:
+
 ```javascript
-var student = { 
-  name: "Rahul", 
-  age: 22, 
-  standard: "6th" 
+var student = {
+  name: "Rahul",
+  age: 22,
+  standard: "6th",
 };
 
-var school = { 
-  name: "SBK high school", 
-  location: "Pune" 
+var school = {
+  name: "SBK high school",
+  location: "Pune",
 };
-
-
 ```
 
 Now, we will use `extend` method to merge these two objects.
@@ -84,4 +81,4 @@ $.merge(student, school);
 
 Now we have understood how to merge two objects in Javascript and the difference between merge and extend method in Javascript. We should be careful while merging two objects having a common attribute name. Common attribute names can cause unexpected result in the output.
 
-Please feel free to contact me on [twitter](https://twitter.com/Shekharpatil95).  
+Please feel free to contact me on [twitter](https://twitter.com/Shekharpatil95).

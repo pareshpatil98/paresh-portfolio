@@ -1,10 +1,9 @@
 ---
 slug: eager-loading-and-N-plus-1-query
 title: Eager loading and N+1 query in rails.
-authors: shekhar-patil
+authors: paresh-patil
 tags: [rails, ruby]
 ---
-
 
 Sometimes, the implementation of an algorithm can make performance worst. Then it does not matter whether it has used the faster programming language like C or slower like Ruby. So we should implement the algorithms properly. Same while dealing with the database we should use proper queries so that the performance should not affect.
 
@@ -17,11 +16,13 @@ class College < ApplicationRecord
   has_many :students
 end
 ```
+
 ```ruby
 class Student < ApplicationRecord
   belongs_to :college
 end
 ```
+
 Now create some colleges and respective students.
 
 ## N+1 query in Rails
@@ -35,6 +36,7 @@ students.each do |student|
   puts "#{student.college.name} build number #{student.name}"
 end
 ```
+
 The above code works, but it makes far too many independent database queries:
 
 ```sql
@@ -64,11 +66,14 @@ students.each do |student|
   puts "#{student.college.name} build number #{student.name}"
 end
 ```
+
 This time we'll use one query to fetch the students and another for fetching the associated colleges.
+
 ```sql
 Student Load (0.4ms) SELECT "students".* FROM "students"
 College Load (0.4ms) SELECT "colleges".* FROM "colleges" WHERE "colleges"."id" IN (?, ?, ?, ?) [["id", 1], ["id", 2], ["id", 3], ["id", 4]]
 ```
+
 Now, we'll required only two queries. Even though we wanted 10000 records only two queries are required to fetch the records from the database and it will improve the performance of our application.
 
 For comparison, the time necessary to load and display 10 builds in my system is 2.1 milliseconds without eager loading and only 0.8 milliseconds with eager loading. This is s huge difference. Currently, In the case of a large number of record fetching, this time difference can be even far more.

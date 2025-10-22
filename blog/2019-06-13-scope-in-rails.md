@@ -1,7 +1,7 @@
 ---
 slug: scope-in-rails
 title: Scope in rails.
-authors: shekhar-patil
+authors: paresh-patil
 tags: [rails]
 ---
 
@@ -44,6 +44,7 @@ class Fruit < ActiveRecord::Base
   scope :color, -> (color_name){ where(color: color_name) }
 end
 ```
+
 now in our Fruit controller we can use
 
 ```ruby
@@ -81,6 +82,7 @@ class user < ActiveRecord::Base
   scope :active, -> { where(status: "active") }
 end
 ```
+
 we can achieve the same result using the following class method as given. Basically, instead of writing class method scope is syntactical sugar for writing queries.
 
 ```ruby

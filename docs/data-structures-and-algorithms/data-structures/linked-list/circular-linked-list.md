@@ -1,7 +1,5 @@
 ---
-
 sidebar_position: 4
-
 ---
 
 # Circular Linked List
@@ -184,4 +182,4 @@ func main() {
 
 Circular Linked Lists are particularly useful in scenarios where you need to loop through the data structure continuously, such as in round-robin scheduling or managing a playlist.
 
-For more detailed code examples, check out my GitHub repository: [Circular Linked List in Go](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/data_structures/linked_list/golang/circular_linked_list.go).
+For more detailed code examples, check out my GitHub repository: [Circular Linked List in Go](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/data_structures/linked_list/golang/circular_linked_list.go).

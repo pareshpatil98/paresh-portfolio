@@ -1,7 +1,7 @@
 ---
 slug: singleton-method-in-the-ruby
 title: How to use a Singleton method in the rails.
-authors: shekhar-patil
+authors: paresh-patil
 tags: [rails]
 ---
 
@@ -11,7 +11,7 @@ Today I attend Ruby Conference at Pune and Singleton method and metaclass in rub
 
 In ruby, we create the class and class has many methods written into it. When we create an object of the class we can access those methods using that object. So, the question raise in my mind was as follows.
 
-### 1. Who holds these methods? does class hold these methods or each object of the class holds this methods? 
+### 1. Who holds these methods? does class hold these methods or each object of the class holds this methods?
 
 Let us find it out.
 
@@ -51,7 +51,7 @@ class User
   end
 end
 
-first_user = User.new      
+first_user = User.new
 first_user.role              // Admin
 
 // Add singleton method department for `first_user` object.
@@ -68,4 +68,3 @@ second_user.department       // NoMethodError (undefined method `department' for
 We can observe that department method is not available for object `second_user` because the department is singleton method for object `first_user` so it is stored on the metaclass of an object and they are independent of the parent class of the object.
 
 So, Object in ruby only stores the state. Its behavior comes from the class definition. The metaclass is almost similar to a class but it can't be instantiated.
- 

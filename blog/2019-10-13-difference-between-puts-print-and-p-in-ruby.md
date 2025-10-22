@@ -1,10 +1,9 @@
 ---
 slug: compare-puts-p-print-in-ruby
 title: Difference between puts, p, and print in ruby.
-authors: shekhar-patil
+authors: paresh-patil
 tags: [ruby]
 ---
-
 
 Ruby is developer friendly language and it provides many ways to perform same task. For example for printing the output on the console we can use puts, prints and p. But multiple ways to do same task means more confusion for selecting correct way for our use case. In this blog we will discuss about difference between puts, print and p so that we can select correct method as per our use case.
 
@@ -19,6 +18,7 @@ Ruby is developer friendly language and it provides many ways to perform same ta
 hello world
  => nil
 ```
+
 #### 2. Using `p`.
 
 ```ruby
@@ -26,6 +26,7 @@ hello world
 "hello world"
  => "hello world"
 ```
+
 #### 3. Using `print`
 
 ```ruby
@@ -56,6 +57,7 @@ puts A
 puts B
 puts C
 ```
+
 Now we can run this file using `ruby filename.rb` in the terminal and before running this command confirm that you are in the same directory where you have created ruby file.
 
 output of above code will be as following
@@ -81,7 +83,9 @@ print A
 print B
 print C
 ```
+
 Output of print:
+
 ```
 ILoveRuby
 ```
@@ -97,7 +101,9 @@ p A
 p B
 p C
 ```
+
 Output of p:
+
 ```
 "I"
 "Love"
@@ -113,6 +119,5 @@ Let's conclude the blog:
 2. print: print does not add newline character at the end of output because of that the return value of print that is `nil` is printed on the same line where output is printed.
 
 3. p: p does not change data type of the input provided to it. if we are passing string type of input it also prints the string type of output. Most importantly, unlike to puts and print p does not return nil value. It returns the same value which has passed to it.
-
 
 Please feel free to contact me on [twitter](https://twitter.com/Shekharpatil95).

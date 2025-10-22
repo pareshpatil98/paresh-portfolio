@@ -1,10 +1,9 @@
 ---
 slug: scan-pdf-files-with-pdfscanner-gem
 title: Introducing My New Ruby Gem - PDFScanner
-authors: shekhar-patil
+authors: paresh-patil
 tags: [ruby, pdf, security, gem]
 ---
-
 
 # Introduction
 
@@ -55,13 +54,13 @@ puts result
 
 ### Parameters
 
-| Parameter    | Description                                                    |
-| ------------ | -------------------------------------------------------------- |
-| target\_file | Path to the PDF file you want to scan (**required**).          |
-| config\_file | YAML file with security policies (**optional**).               |
-| policy       | Policy name to enforce (**optional**, defaults to `standard`). |
-| dir          | Directory to move/quarantine flagged files (**optional**).     |
-| passwd       | Password for encrypted PDFs (**optional**).                    |
+| Parameter   | Description                                                    |
+| ----------- | -------------------------------------------------------------- |
+| target_file | Path to the PDF file you want to scan (**required**).          |
+| config_file | YAML file with security policies (**optional**).               |
+| policy      | Policy name to enforce (**optional**, defaults to `standard`). |
+| dir         | Directory to move/quarantine flagged files (**optional**).     |
+| passwd      | Password for encrypted PDFs (**optional**).                    |
 
 ## What does the scan return?
 
@@ -74,8 +73,8 @@ The `scan` method returns a hash with two keys:
 }
 ```
 
-* `rejected_policies`: List of policies violated by the scanned PDF.
-* `analysis_failure`: Any errors encountered during the scan.
+- `rejected_policies`: List of policies violated by the scanned PDF.
+- `analysis_failure`: Any errors encountered during the scan.
 
 ## Configuring Security Policies
 
@@ -99,13 +98,13 @@ You can customize these rules to fit the specific needs of your application.
 
 You can use the gem in many practical scenarios, such as:
 
-* Validating user-uploaded PDFs on web forms
-* Automating document checks before emailing or sharing
-* As part of a secure document ingestion pipeline
-* Complying with data handling and security standards
+- Validating user-uploaded PDFs on web forms
+- Automating document checks before emailing or sharing
+- As part of a secure document ingestion pipeline
+- Complying with data handling and security standards
 
 ## Conclusion
 
 The `pdf_scanner` gem is a lightweight yet powerful tool for securing your PDF processing workflows in Ruby. With support for customizable policies and encrypted PDFs, it’s a must-have for any Ruby developer handling file uploads.
 
-You can find the gem on [RubyGems](https://rubygems.org/gems/pdf_scanner) or browse the source code on [GitHub](https://github.com/shekhar-patil/pdf_scanner).
+You can find the gem on [RubyGems](https://rubygems.org/gems/pdf_scanner) or browse the source code on [GitHub](https://github.com/paresh-patil/pdf_scanner).

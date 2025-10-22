@@ -1,10 +1,9 @@
 ---
 slug: postgres-permission-denied
 title: Postgres users and their permission issue.
-authors: shekhar-patil
+authors: paresh-patil
 tags: [rails, postgres]
 ---
-
 
 Have you ever faced the following issue while fetching records from Postgres in the rails?
 
@@ -31,6 +30,7 @@ test:
   username: test_db_username
   password: password
 ```
+
 So while fetching Postgres record from rails console I was getting above mentioned error
 
 Another issue was the rails were not providing the username for which permission error was occurring and I was not sure about the username used while fetching the Postgres record.
@@ -45,15 +45,16 @@ In the log file you will get line similar to the following:
 ```
 2020-04-09 17:24:01.874 IST [25904] root@dev_db_name ERROR:  permission denied for relation
 ```
+
 Here we can get the username `root@dev_db_name` so `root` user is getting permission denied for the table.
 
 To solve this issue use the following steps:
 
-* Open your Postgres console with the following command:
+- Open your Postgres console with the following command:
 
   `sudo su - postgres` followed by `psql`
 
-* Now use `\du` command to check users and their permissions.
+- Now use `\du` command to check users and their permissions.
 
 ```
 postgres=# \du
@@ -62,8 +63,9 @@ postgres=# \du
 ----------------+------------------------------------------------------------+-----------
  postgres       | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
  root           |                                                            | {}
- shekhar        | Superuser, Create DB, Bypass RLS                           | {}
+ paresh        | Superuser, Create DB, Bypass RLS                           | {}
 ```
+
 Here we can see root user don't have any permission
 
 Now grant the following permissions to the `root` user.
@@ -72,6 +74,7 @@ Now grant the following permissions to the `root` user.
 GRANT ALL PRIVILEGES ON DATABASE dev_db_name to root;
 postgres=# ALTER USER root WITH SUPERUSER CREATEDB BYPASSRLS;
 ```
+
 you can read more about the Privileges in PostgreSQL [Here](https://www.digitalocean.com/docs/databases/postgresql/how-to/modify-user-privileges/).
 
 I hope it will solve your problem.

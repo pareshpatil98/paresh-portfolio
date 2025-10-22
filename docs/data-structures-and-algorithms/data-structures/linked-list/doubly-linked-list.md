@@ -1,7 +1,5 @@
 ---
-
 sidebar_position: 3
-
 ---
 
 # Doubly Linked List
@@ -209,4 +207,4 @@ func main() {
 
 This Go code demonstrates how to manage a Doubly Linked List by inserting and deleting nodes, as well as printing the list’s contents.
 
-For a more detailed exploration and code examples, you can check out my work on GitHub: [Doubly Linked List in Go](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/data_structures/linked_list/golang/doubly_linked_list.go).
+For a more detailed exploration and code examples, you can check out my work on GitHub: [Doubly Linked List in Go](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/data_structures/linked_list/golang/doubly_linked_list.go).

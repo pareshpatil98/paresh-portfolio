@@ -1,5 +1,4 @@
 ---
-
 sidebar_position: 2
 ---
 
@@ -90,4 +89,4 @@ func main() {
 }
 ```
 
-Feel free to follow my work on GitHub: [Dijkstra Algorithm in Go](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/graph_algorithms/dijkstra_algorithm.go).
+Feel free to follow my work on GitHub: [Dijkstra Algorithm in Go](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/graph_algorithms/dijkstra_algorithm.go).

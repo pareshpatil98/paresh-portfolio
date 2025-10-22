@@ -9,7 +9,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Blogs, Tutorials, Guidance`}
-      description="Blogs, Tutorials, Guidance by Shekhar Patil">
+      description="Blogs, Tutorials, Guidance by paresh Patil">
       <main>
         <HomepageFeatures />
       </main>

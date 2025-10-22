@@ -1,5 +1,5 @@
 {
-  "name": "shekhar-patil.github.io",
+  "name": "paresh-patil.github.io",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "predeploy": "npm run build",
-    "deploy": "GIT_USER=shekhar-patil docusaurus deploy",
+    "deploy": "GIT_USER=paresh-patil docusaurus deploy",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc"

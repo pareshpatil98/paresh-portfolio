@@ -3,9 +3,9 @@ sidebar_position: 1
 title: LeetCode Solutions
 description: LeetCode Problem Solutions
 authors:
-  name: Shekhar Patil
+  name: paresh Patil
   title: Full stack developer.
-  url: https://github.com/shekhar-patil
+  url: https://github.com/paresh-patil
   image_url: https://avatars.githubusercontent.com/u/16961675?s=400&u=70e54719e239d1148c24bc8661a72ee9e59f420d&v=4
 ---
 

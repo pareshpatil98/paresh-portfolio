@@ -53,7 +53,7 @@ func main() {
   selectionSort(nums)
   fmt.Println(nums)
 }
-````
+```
 
 ---
 
@@ -65,35 +65,34 @@ func main() {
 | Average Case | O(n²)           |
 | Worst Case   | O(n²)           |
 
-* **Best case and worst case have same complexity**, since selection sort always scans the unsorted part fully.
-* **Space Complexity**: O(1) — In-place sorting.
+- **Best case and worst case have same complexity**, since selection sort always scans the unsorted part fully.
+- **Space Complexity**: O(1) — In-place sorting.
 
 ---
 
 ## ✅ Advantages
 
-* Very simple and easy to understand.
-* Performs well on small datasets.
-* In-place sorting (no extra memory required).
-* Number of swaps is minimal (maximum `n - 1` swaps).
+- Very simple and easy to understand.
+- Performs well on small datasets.
+- In-place sorting (no extra memory required).
+- Number of swaps is minimal (maximum `n - 1` swaps).
 
 ---
 
 ## ❌ Disadvantages
 
-* Inefficient for large datasets.
-* O(n²) time complexity even for already sorted data.
-* Comparisons are always `n(n-1)/2` — no early exit optimization.
+- Inefficient for large datasets.
+- O(n²) time complexity even for already sorted data.
+- Comparisons are always `n(n-1)/2` — no early exit optimization.
 
 ---
 
 ## 🌍 Real-Life Examples
 
-* **Classroom sorting of physical objects** (e.g. arranging weights, numbers, or cards manually).
-* **Small embedded systems** where simplicity is preferred over speed.
-* Educational purposes for teaching sorting algorithms.
+- **Classroom sorting of physical objects** (e.g. arranging weights, numbers, or cards manually).
+- **Small embedded systems** where simplicity is preferred over speed.
+- Educational purposes for teaching sorting algorithms.
 
 ---
 
-Feel free to follow my work on GitHub: [Selection Sort in Go](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/sorting_algorithms/selection_sort.go)
-
+Feel free to follow my work on GitHub: [Selection Sort in Go](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/sorting_algorithms/selection_sort.go)

@@ -1,11 +1,12 @@
 ---
 slug: const-get-method-in-ruby
 title: Do you know how helpful the const_get method is?
-authors: shekhar-patil
+authors: paresh-patil
 tags: [ruby]
 ---
 
 First, we will understand how the const_get method works then I will explain how we can use it in different ways and what are the use cases.
+
 <!--truncate-->
 
 ```ruby
@@ -24,7 +25,7 @@ We can also use some variable to store this string and get the constant's value 
 
 We can also lookup the ancestor's constant using const_get method if the inherit flag is set as true.
 
-``Note:`` ancestors of some module means a list of modules included or prepend in that module.
+`Note:` ancestors of some module means a list of modules included or prepend in that module.
 
 ```ruby
 module Vehicle
@@ -42,8 +43,7 @@ wheel_const = 'Vehicle::TeslaS::WHEELS'
 puts Object.const_get(wheel_const, true)  # => 4
 ```
 
-
-Here we have given the inherit flag as true it means lookup the base class and the module Vehicle's ancestors as well. If we would have included/prepend some modules in our Vehicle module then the const_get method also would have lookup into those modules. 
+Here we have given the inherit flag as true it means lookup the base class and the module Vehicle's ancestors as well. If we would have included/prepend some modules in our Vehicle module then the const_get method also would have lookup into those modules.
 
 Now, let's try to change that flag into false.
 
@@ -69,7 +69,7 @@ puts Object.const_get(wheel_const, false)
 
 Now, we are getting an error uninitialized constant `Vehicle::TeslaS::WHEELS` because now we have set inherit flag as a false so const_get method will not lookup base class or modules ancestors for `WHEEL` constant. It will throw an error because the `WHEEL` constant is not defined in the TeslaS class.
 
-``Note:`` If we do not mention the inherit flag then it is by default true.
+`Note:` If we do not mention the inherit flag then it is by default true.
 
 I hope you loved it.
 Please feel free to contact me on [twitter](https://twitter.com/Shekharpatil95).

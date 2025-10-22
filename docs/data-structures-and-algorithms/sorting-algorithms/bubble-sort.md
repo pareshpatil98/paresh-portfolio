@@ -43,7 +43,7 @@ func main() {
     nums := []int{10, 2, 5, 3, 1}
     BubbleSort(nums)
 }
-````
+```
 
 ---
 
@@ -55,10 +55,10 @@ func main() {
 | Average Case | O(n²)           |
 | Worst Case   | O(n²)           |
 
-* **Best case** occurs when the array is already sorted (optimized by `swapped` flag).
-* **Worst case** occurs when the array is sorted in reverse.
-* **Space Complexity**: O(1) – in-place sorting.
+- **Best case** occurs when the array is already sorted (optimized by `swapped` flag).
+- **Worst case** occurs when the array is sorted in reverse.
+- **Space Complexity**: O(1) – in-place sorting.
 
 ---
 
-Feel free to follow my work on GitHub: [Bubble Sort in Go](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/sorting_algorithms/bubble_sort.go)
+Feel free to follow my work on GitHub: [Bubble Sort in Go](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/sorting_algorithms/bubble_sort.go)

@@ -37,7 +37,7 @@ func main() {
   insertionSort(nums)
   fmt.Println(nums)
 }
-````
+```
 
 ---
 
@@ -49,39 +49,35 @@ func main() {
 | Average Case | O(n²)           |
 | Worst Case   | O(n²)           |
 
-* **Best case**: When the array is already sorted.
-* **Worst case**: When the array is sorted in reverse.
-* **Space Complexity**: O(1) — In-place sorting.
+- **Best case**: When the array is already sorted.
+- **Worst case**: When the array is sorted in reverse.
+- **Space Complexity**: O(1) — In-place sorting.
 
 ---
 
 ## ✅ Advantages
 
-* Simple and easy to implement.
-* Efficient for small datasets.
-* Performs well on nearly sorted arrays.
-* Stable sort (maintains relative order of equal elements).
-* In-place sorting (no extra memory required).
+- Simple and easy to implement.
+- Efficient for small datasets.
+- Performs well on nearly sorted arrays.
+- Stable sort (maintains relative order of equal elements).
+- In-place sorting (no extra memory required).
 
 ---
 
 ## ❌ Disadvantages
 
-* Inefficient on large datasets.
-* O(n²) time complexity for worst-case and average-case scenarios.
+- Inefficient on large datasets.
+- O(n²) time complexity for worst-case and average-case scenarios.
 
 ---
 
 ## 🌍 Real-Life Examples
 
-* Sorting playing cards in your hand.
-* Small datasets where simplicity is preferred.
-* Useful in hybrid algorithms (e.g. Timsort).
+- Sorting playing cards in your hand.
+- Small datasets where simplicity is preferred.
+- Useful in hybrid algorithms (e.g. Timsort).
 
 ---
 
-Feel free to follow my work on GitHub: [Insertion Sort in Go](https://github.com/shekhar-patil/data_structure_and_algorithms/blob/main/sorting_algorithms/insertion_sort.go)
-
-
-
-
+Feel free to follow my work on GitHub: [Insertion Sort in Go](https://github.com/paresh-patil/data_structure_and_algorithms/blob/main/sorting_algorithms/insertion_sort.go)
