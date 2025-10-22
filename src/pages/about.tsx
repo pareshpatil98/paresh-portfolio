@@ -5,53 +5,43 @@ import styles from './about.module.css';
 export default function About(): JSX.Element {
   return (
     <Layout
-      title="About Shekhar Patil"
-      description="Know more about Shekhar Patil - Senior Software Engineer and Open Source Contributor"
+      title="About Paresh Patil"
+      description="Know more about Paresh Patil - Full Stack Web Developer"
     >
       <main className={styles.main}>
         <div className={styles.container}>
 
           {/* ✅ TEXT FIRST */}
           <div className={styles.textColumn}>
-            <h1>Hey, I’m Shekhar Patil</h1>
+            <h1>Hey, I’m Paresh Patil</h1>
             <p className={styles.subtitle}>
-              Full-stack engineer, backend specialist, and open-source contributor.
+              Full-stack Web Developer | Ruby on Rails | React | Vue.js
             </p>
 
             <h2>About Me</h2>
 
             <p>
-              I’m a Senior Software Engineer at <strong>Neurealm</strong>, based in Pune, with over 7 years of experience building scalable backend systems, crafting developer tools, and deploying modern infrastructure. My work revolves around creating clean, maintainable software that solves complex problems efficiently.
+              I’m a Full Stack Web Developer with <strong>2.4+ years of experience</strong> building scalable web applications using <strong>Ruby on Rails, React, Vue.js, JavaScript, and HTML</strong>. I specialize in creating clean, maintainable, and high-performance software that solves real-world problems efficiently.
             </p>
 
             <p>
-              My core expertise lies in <strong>Golang, Docker, Kubernetes, and Ruby</strong>. These technologies empower me to develop robust backend services, manage containerized applications, and contribute to developer productivity. Over the years, I have developed a deep passion for backend engineering and infrastructure automation.
+              My core expertise includes <strong>Rails, PostgreSQL, Vue.js, React, JavaScript, HTML, Git, and AWS (S3)</strong>, allowing me to develop robust backends, interactive frontends, and cloud-enabled applications. I’m passionate about writing clean code, optimizing performance, and implementing design patterns for scalable solutions.
             </p>
-
             <p>
-              I have contributed to popular open-source projects like <strong>Ruby on Rails</strong>, <strong>Rubocop</strong>, and <strong>swagger-ui-engine</strong>. Contributing to the open-source community helps me stay at the forefront of technology while advocating for clean code, performance optimization, and system reliability.
-            </p>
-
-            <p>
-              Outside of my professional work, I create educational content on <a href="https://www.shekharpatil.tech" target="_blank" rel="noreferrer" style={{ color: '#3b82f6' }}>shekharpatil.tech</a>, where I share tutorials, insights, and practical guides for developers. I also actively contribute to open source on <a href="https://github.com/shekhar-patil" target="_blank" rel="noreferrer" style={{ color: '#3b82f6' }}>GitHub</a> and share technical thoughts on <a href="https://www.linkedin.com/in/shekhar-patil-834462135/" target="_blank" rel="noreferrer" style={{ color: '#3b82f6' }}>LinkedIn</a>.
-            </p>
-
-            <p>
-              My goal is to empower engineers by breaking down complex backend concepts into practical, easy-to-understand ideas that help build meaningful, scalable, and impactful software.
+              I enjoy sharing my learnings through blogs, tutorials, and interview prep guides, helping other developers grow while staying updated with modern technologies. My goal is to build meaningful, maintainable, and impactful software while continuously learning and contributing to the developer community.
             </p>
 
             <h2>Connect with Me</h2>
             <div className={styles.socialLinks}>
-              <a href="https://github.com/shekhar-patil" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="https://www.linkedin.com/in/shekhar-patil-834462135/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a href="https://x.com/Shekharpatil95" target="_blank" rel="noopener noreferrer">Twitter</a>
-              <a href="https://www.youtube.com/@shekharpatil02" target="_blank" rel="noopener noreferrer">YouTube</a>
+              <a href="https://github.com/pareshpatil98" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/pareshsharadpatil/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://www.youtube.com/@pareshpatil-1112" target="_blank" rel="noopener noreferrer">YouTube</a>
             </div>
           </div>
 
           {/* ✅ IMAGE ON RIGHT (ON DESKTOP) */}
           <div className={styles.photoColumn}>
-            <img src="/img/profile.png" alt="Shekhar Patil" />
+            <img src="/img/profile.png" alt="Paresh Patil" />
           </div>
         </div>
       </main>

@@ -32,7 +32,7 @@ export default function HomepageFeatures() {
               </p>
               <div className={styles.linkRow}>
                 <a href="https://github.com/pareshpatil98" target="_blank" rel="noreferrer" className={styles.socialButton}>GitHub</a>
-                <a href="https://www.linkedin.com/in/paresh-patil-96592a183/" target="_blank" rel="noreferrer" className={styles.socialButton}>LinkedIn</a>
+                <a href="https://www.linkedin.com/in/pareshsharadpatil/" target="_blank" rel="noreferrer" className={styles.socialButton}>LinkedIn</a>
                 <a href="/blog" className={styles.socialButton}>My Blog</a>
               </div>
             </div>

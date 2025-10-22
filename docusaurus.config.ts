@@ -4,15 +4,15 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Paresh Patil - Full Stack Developer',
-  tagline: 'Ruby on Rails Developer with 2+ years of experience. Skilled in Rails, PostgreSQL, Vue.js, Git, and AWS. Passionate about clean code, performance optimization, and sharing dev insights.',
-  favicon: 'img/favicon.ico',
+  tagline: 'Ruby on Rails Developer with 2+ years of experience. Skilled in Rails, React, PostgreSQL, Vue.js, Git, and AWS. Passionate about clean code, performance optimization, and sharing dev insights.',
+  favicon: 'img/profile.png',
 
   // Set the production url of your site here
-  url: 'https://shekhar-patil.github.io',
+  url: 'https://Paresh-patil.github.io',
   baseUrl: '/',
 
-  organizationName: 'shekhar-patil',
-  projectName: 'shekhar-patil.github.io',
+  organizationName: 'Paresh-patil',
+  projectName: 'Paresh-patil.github.io',
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
@@ -112,7 +112,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         property: 'og:image',
-        content: 'https://shekharpatil.tech/img/profile.png',
+        content: 'https://Pareshpatil.tech/img/profile.png',
       },
     },
     {
@@ -147,7 +147,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'twitter:image',
-        content: 'https://shekharpatil.tech/img/profile.png',
+        content: 'https://Pareshpatil.tech/img/profile.png',
       },
     },
     {
@@ -159,14 +159,14 @@ const config: Config = {
         '@context': 'https://schema.org',
         '@type': 'Person',
         name: 'Paresh Patil',
-        url: 'https://shekharpatil.tech',
-        image: 'https://shekharpatil.tech/img/profile.png',
+        url: 'https://Pareshpatil.tech',
+        image: 'https://Pareshpatil.tech/img/profile.png',
         sameAs: [
-          'https://github.com/shekhar-patil',
-          'https://www.linkedin.com/in/shekhar-patil-834462135/',
-          'https://x.com/Shekharpatil95',
-          'https://www.youtube.com/@shekharpatil02',
-          'https://stackoverflow.com/users/7292776/shekhar-patil'
+          'https://github.com/Paresh-patil',
+          'https://www.linkedin.com/in/Paresh-patil-834462135/',
+          'https://x.com/Pareshpatil95',
+          'https://www.youtube.com/@Pareshpatil02',
+          'https://stackoverflow.com/users/7292776/Paresh-patil'
         ],
         jobTitle: 'Full Stack Developer',
         worksFor: {
@@ -217,7 +217,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          to: 'https://calendly.com/shekhar-patil',
+          to: 'https://calendly.com/Paresh-patil',
           label: 'Schedule Meeting',
           position: 'right',
         },
@@ -249,19 +249,19 @@ const config: Config = {
           items: [
             {
                 label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/shekhar-patil-834462135/',
+                href: 'https://www.linkedin.com/in/Paresh-patil-834462135/',
              },
             {
               label: 'Twitter',
-              href: 'https://x.com/Shekharpatil95',
+              href: 'https://x.com/Pareshpatil95',
             },
             {
               label: 'YouTube',
-              href: 'https://www.youtube.com/@shekharpatil02',
+              href: 'https://www.youtube.com/@Pareshpatil02',
             },
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/users/7292776/shekhar-patil',
+              href: 'https://stackoverflow.com/users/7292776/Paresh-patil',
             },
           ],
         },
@@ -274,7 +274,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/shekhar-patil',
+              href: 'https://github.com/Paresh-patil',
             },
           ],
         },
