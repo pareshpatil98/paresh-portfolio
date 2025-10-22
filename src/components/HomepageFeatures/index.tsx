@@ -28,10 +28,7 @@ export default function HomepageFeatures() {
                 Welcome to <span className={styles.shekharText}>Paresh's</span> Channel
               </h1>
               <p className={styles.descriptionText}>
-                Ruby on Rails Developer with 2+ years of experience building scalable web applications. 
-                Skilled in Rails, PostgreSQL, Vue.js, Git, and AWS (S3). 
-                Passionate about writing clean code, optimizing performance, and exploring design patterns. 
-                I also share learnings, interview prep tips, and dev insights.
+                Ruby on Rails Developer with 2+ years of experience building scalable web apps using Rails, PostgreSQL, React, and Vue.js. Skilled in Git and AWS (S3), passionate about clean code, performance optimization, and sharing dev insights & interview tips.
               </p>
               <div className={styles.linkRow}>
                 <a href="https://github.com/pareshpatil98" target="_blank" rel="noreferrer" className={styles.socialButton}>GitHub</a>
